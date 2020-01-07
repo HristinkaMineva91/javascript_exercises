@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function red() {
+                document.getElementById('rect').style.background = 'red'
+            }
+
+            function white() {
+                document.getElementById('rect').style.background = 'white'
+            }
+        </script>
+        <title>My Website</title>
+    </head>
+    <body>
+        <div id='rect' onmouseover="red()" onmouseout="white()" style="width: 100px; height: 100px; border: 1px solid black"></div>
+    </body>
+</html>
